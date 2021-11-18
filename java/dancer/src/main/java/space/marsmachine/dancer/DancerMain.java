@@ -7,10 +7,11 @@ public class DancerMain {
     }
 
     private static int getPositionAt(int n) {
-        /* La secuencia se repite a partir del se!xto stage,
-         * por lo que se puede realizar lo siguiente. De este
-         * modo, el cálculo para n --> infinito es muy sencillo.
-         * No es necesario hacer funciones recursivas o loops.
+        /* The sequence is repeated from the sixth stage onwards,
+         * so the following can be done. In this way, the calculation 
+	 * for n --> infinity is very simple.
+         * way, the calculation for n --> infinity is very simple.
+         * It is not necessary to do recursive functions or loops.
          */
         return new int[]{0, 1, -1, -4, -5, -3}[n % 6];
     }
