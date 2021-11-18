@@ -8,8 +8,8 @@ public class DancerMain {
 
     private static int getPositionAt(int n) {
         /* The sequence is repeated from the sixth stage onwards,
-         * so the following can be done. In this way, the calculation 
-	 * for n --> infinity is very simple.
+         * so the following can be done. In this way, the calculation
+         * for n --> infinity is very simple.
          * way, the calculation for n --> infinity is very simple.
          * It is not necessary to do recursive functions or loops.
          */
